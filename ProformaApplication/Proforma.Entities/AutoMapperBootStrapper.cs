@@ -12,7 +12,7 @@ namespace Proforma.Entities
         {
             //Mapper.CreateMap<OrderView, OrderPaymentRequest>()
             //    .ForMember(o => o.Total, ov => ov.ResolveUsing<OrderTotalResolver>())
-            //    .ForMember(o => o.ShippingCharge, ov => ov.ResolveUsing<ShippingChargeResolver>());
+            //    .ForMember(o => o.ShippingCharge, ov => ov.ResolveUsing<ShippingChargeResolver>());//test
 
             //Mapper.CreateMap<OrderItemView, OrderItemPaymentRequest>()
             //    .ForMember(o => o.Price, ov => ov.ResolveUsing<ItemPriceResolver>());
