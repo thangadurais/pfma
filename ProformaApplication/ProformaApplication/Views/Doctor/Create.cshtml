@@ -1,0 +1,130 @@
+﻿@model ProformaApplication.ViewModel.DoctorBasicInfoViewModal
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>DoctorBasicInfoViewModal</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FirstName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FirstName)
+            @Html.ValidationMessageFor(model => model.FirstName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastName)
+            @Html.ValidationMessageFor(model => model.LastName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PersonalNumber)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PersonalNumber)
+            @Html.ValidationMessageFor(model => model.PersonalNumber)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MobilePhone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MobilePhone)
+            @Html.ValidationMessageFor(model => model.MobilePhone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HomePhone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HomePhone)
+            @Html.ValidationMessageFor(model => model.HomePhone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OfficePhone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OfficePhone)
+            @Html.ValidationMessageFor(model => model.OfficePhone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateOfBirth)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateOfBirth)
+            @Html.ValidationMessageFor(model => model.DateOfBirth)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.City)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.City)
+            @Html.ValidationMessageFor(model => model.City)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.AddedBy)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AddedBy)
+            @Html.ValidationMessageFor(model => model.AddedBy)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UpdatedBy)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UpdatedBy)
+            @Html.ValidationMessageFor(model => model.UpdatedBy)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.AddedDateTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AddedDateTime)
+            @Html.ValidationMessageFor(model => model.AddedDateTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UpdatedDateTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UpdatedDateTime)
+            @Html.ValidationMessageFor(model => model.UpdatedDateTime)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

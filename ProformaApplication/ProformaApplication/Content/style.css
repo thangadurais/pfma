@@ -1,0 +1,133 @@
+﻿*
+{
+    margin: 0;
+}
+html, body, form
+{
+    height: 100%;
+}
+/* CSS Document */
+body
+{
+    padding: 0px;
+    margin: 0px !important;
+    position: relative !important;
+    font: normal 12px/14px MetaBold,Trebuchet MS,sans-serif;
+    text-align: left;
+    color: #000;
+    background: url(../images/bg-header.png) repeat-x #fff;
+}
+
+
+div, p, ul, h1, h2, h3, h4, img, form, input
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+img
+{
+    border: none;
+}
+
+
+.icon
+{
+    padding: 0px 2px 0px 2px;
+}
+
+a:focus
+{
+    outline: none;
+}
+
+input[type|="radio"], input[type|="checkbox"]
+{
+    border: 0px;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+#wrapper
+{
+    min-height: 100%;
+    position: relative;
+}
+.content-box
+{
+    padding: 0 44px;
+}
+div#header
+{
+    border-bottom: 1px solid #2191C1;
+    height: 71px;
+    
+}
+#header .logo
+{
+    float: left;
+    margin: 17px 0 0;
+}
+div#language-box
+{
+    float: right;
+    position: relative;
+    margin: 22px 0 0;
+}
+#language-trigger
+{
+    background-color: #1E8CBE;
+    background-image: -moz-linear-gradient(center top , #2EA2CC, #1E8CBE);
+    border: 1px solid #2065A5;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    float: right;
+    font-family: "proxima-nova-soft" , "Helvetica Neue" ,Helvetica,sans-serif;
+    font-weight: 500;
+    padding: 5px 20px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+#language-trigger span
+{
+    display: block;
+    background-image: url("images/down_white.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10px;
+}
+#language-content ul
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #98B2C9;
+    border-radius: 0 3px 3px 3px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), 0 -2px 0 rgba(152, 178, 201, 0.3) inset;    
+    padding: 5px 8px;
+    position: absolute;
+    top: 26px;
+    
+    width:200px;
+    right:0px;
+}
+#language-content ul li
+{
+    list-style:none outside none;
+     line-height: 25px;
+}
+#language-content ul li a
+{
+    display:block;
+    text-decoration:none;
+    float:right;
+}
+#language-content ul.languages li
+{
+}
+div.language-menu-box
+{
+}

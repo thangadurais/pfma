@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProformaApplication", "ProformaApplication\ProformaApplication.csproj", "{2D15188E-A711-41F2-80E2-8ED35FA27345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proforma.Repository", "Proforma.Repository\Proforma.Repository.csproj", "{F20F59A5-BC67-4A6D-B0EC-31C93A6CCCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proforma.Services", "Proforma.Services\Proforma.Services.csproj", "{F95465BE-C231-4445-BB45-38C44B868B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proforma.Entities", "Proforma.Entities\Proforma.Entities.csproj", "{E94170EB-50D5-42A1-8A48-433CCF7ECF83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proforma.Infrastructure", "Proforma.Infrastructure\Proforma.Infrastructure.csproj", "{48483A17-A0E6-4652-98D0-D58D8145BA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proforma.Utilities", "Proforma.Utilities\Proforma.Utilities.csproj", "{C14E3E82-2771-4D04-91FA-DCDAB4FC60E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D15188E-A711-41F2-80E2-8ED35FA27345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D15188E-A711-41F2-80E2-8ED35FA27345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D15188E-A711-41F2-80E2-8ED35FA27345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D15188E-A711-41F2-80E2-8ED35FA27345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20F59A5-BC67-4A6D-B0EC-31C93A6CCCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20F59A5-BC67-4A6D-B0EC-31C93A6CCCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20F59A5-BC67-4A6D-B0EC-31C93A6CCCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20F59A5-BC67-4A6D-B0EC-31C93A6CCCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95465BE-C231-4445-BB45-38C44B868B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95465BE-C231-4445-BB45-38C44B868B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95465BE-C231-4445-BB45-38C44B868B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95465BE-C231-4445-BB45-38C44B868B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94170EB-50D5-42A1-8A48-433CCF7ECF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94170EB-50D5-42A1-8A48-433CCF7ECF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94170EB-50D5-42A1-8A48-433CCF7ECF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94170EB-50D5-42A1-8A48-433CCF7ECF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48483A17-A0E6-4652-98D0-D58D8145BA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48483A17-A0E6-4652-98D0-D58D8145BA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48483A17-A0E6-4652-98D0-D58D8145BA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48483A17-A0E6-4652-98D0-D58D8145BA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14E3E82-2771-4D04-91FA-DCDAB4FC60E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14E3E82-2771-4D04-91FA-DCDAB4FC60E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14E3E82-2771-4D04-91FA-DCDAB4FC60E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14E3E82-2771-4D04-91FA-DCDAB4FC60E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
